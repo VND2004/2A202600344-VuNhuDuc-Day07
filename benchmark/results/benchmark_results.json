@@ -1,0 +1,602 @@
+{
+  "queries_file": "benchmark\\queries_gold.json",
+  "data_dir": "data\\raw_data",
+  "strategies": [
+    {
+      "strategy": "markdown_structure_with_filter",
+      "chunker": "DocumentStructureChunker",
+      "use_metadata_filter": true,
+      "num_chunks": 110,
+      "avg_score": 0.4403,
+      "queries": [
+        {
+          "id": "q1",
+          "question": "Dế Choắt là quán quân của chương trình nào và vào mùa nào?",
+          "gold_answer": "Dế Choắt là quán quân mùa đầu tiên của chương trình Rap Việt.",
+          "keyword_score": 0.75,
+          "overlap_score": 0.3448,
+          "final_score": 0.6284,
+          "top_results": [
+            {
+              "score": 0.5587,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "Section: Dế Choắt - Tiểu sử  Anh nổi tiếng với lần dizz Hot Boy Xăm Trổ và trận Beef với Phúc Rey. Năm 2020, anh tham gia chương trình Rap Việt về đội Wowy và gây tiếng vang tại sh"
+            },
+            {
+              "score": 0.5276,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "Section: Dế Choắt - Tiểu sử  Dế Choắt là một rapper của Underground. Đồng thời anh cũng là một thợ xăm Tattoo.   Những bài rap tiêu biểu: Ba Mẹ, Đời Con ; Tiền, Dối Trá Trong Tao, "
+            },
+            {
+              "score": 0.3912,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "Section: Dế Choắt - Tiểu sử  | Thông tin | Chi tiết | | :--- | :--- | | **Tên thật** | Châu Hải Minh | | **Rapname + Nickname** | Dế Choắt | | **Nhóm/Tổ chức/Hãng đĩa - Thương hiệu"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "ICD đạt danh hiệu quán quân ở chương trình nào?",
+          "gold_answer": "ICD là quán quân của chương trình King of Rap.",
+          "keyword_score": 1.0,
+          "overlap_score": 0.2469,
+          "final_score": 0.7741,
+          "top_results": [
+            {
+              "score": 0.6677,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "Section: ICD - Tiểu sử  Năm 2020, anh tham gia chương trình King of Rap và trở thành quán quân mùa một của King of Rap.  ICD chơi skill khá tốt và anh được đánh giá khá cao.   \" Ng"
+            },
+            {
+              "score": 0.6064,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "Section: ICD - Tiểu sử  Mày mất 8 năm để theo đuổi nó và biến biến thành sức mạnh của mình nhưng coi chừng tao sẽ dẹp bởi vì tao sắp vào vai Trấn Thành  Dizz mày trên cùng beat tao"
+            },
+            {
+              "score": 0.5911,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "Section: ICD - Tiểu sử  Tao bật nhạc mày nghe thử hàng xóm lại hỏi tao mới mua chó à ? \"  - ICD (Sủa)"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Karik tham gia Rap Việt với vai trò gì?",
+          "gold_answer": "Karik tham gia Rap Việt với vai trò huấn luyện viên.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.1205,
+          "final_score": 0.2695,
+          "top_results": [
+            {
+              "score": 0.6577,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Section: Karik - Tiểu sử  Gia đình :Trong gia đình Karik có 2 anh em và Karik là con út. Khi đến với nhạc rap Karik bị gia đỉnh phản đối, không được ủng hộ vì anh trai mình là ngườ"
+            },
+            {
+              "score": 0.6151,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Section: Karik - Tiểu sử  Tham gia nhóm nhảy Freestyle năm 2006 và chính thức nghỉ vào cuối năm 2008 vì bị chấn thương tay phải ,sau vài tháng hồi phục lại nhưng vẫn không được hoà"
+            },
+            {
+              "score": 0.6142,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Section: Karik - Tiểu sử  Vào 2018, Karik cùng Orange cho ra bài Người lạ ơi được ưa chuộng và từ \"Người lạ ơi\" thành trend một thời gian.Sau thành công từ \"Người lạ ơi\" Karik tiếp"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Wowy là người sáng lập nhóm rap nào?",
+          "gold_answer": "Wowy là người sáng lập nhóm rap SpaceSpeakers.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.075,
+          "final_score": 0.2558,
+          "top_results": [
+            {
+              "score": 0.5997,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "preview": "Section: Wowy - Tiểu sử  Wowy tên thật là Nguyễn Ngọc Minh Huy (sinh ngày 27 tháng 9 năm 1988) là một rapper người Việt Nam. Wowy là một rapper \"đường phố\" được khá nhiều bạn trẻ u"
+            },
+            {
+              "score": 0.5734,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "preview": "Section: Wowy - Tiểu sử  Năm 2018, anh kết hợp cùng SMO phát hành album mới mang tên \"khu sao sống\". Wowy là huấn luyện viên mùa 1 và 2 của Game show Rap Việt. 2 thí sinh team Wowy"
+            },
+            {
+              "score": 0.5352,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "preview": "Section: Wowy - Tiểu sử  Bên cạnh ca hát, anh còn sáng tác, những sáng tác của anh mang âm hưởng phật pháp của Wowy đã thể hiện lên một mảng tâm hồn sâu lắng trong anh và khiến mọi"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Suboi thường được mệnh danh là gì và dấu ấn quốc tế nổi bật của cô là gì?",
+          "gold_answer": "Suboi thường được mệnh danh là Nữ hoàng hip hop Việt Nam và cô từng trình diễn trước Barack Obama trong chuyến thăm Việt Nam.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.1351,
+          "final_score": 0.2739,
+          "top_results": [
+            {
+              "score": 0.6392,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Section: Suboi - Tiểu sử  \"Khi tôi bắt đầu sự nghiệp của mình, không ai thực sự biết 'rap' là gì. Vì thế tôi không biết người Việt Nam sẽ phản ứng như thế nào về nó. Nếu bạn đến Mỹ"
+            },
+            {
+              "score": 0.5866,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Section: Suboi - Tiểu sử  Thời thơ ấu và con đường đến với âm nhạc"
+            },
+            {
+              "score": 0.5849,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Section: Suboi - Tiểu sử  Hàng Lâm Trang Anh (sinh ngày 14 tháng 1 năm 1990), hay còn được biết đến với nghệ danh Suboi, là một rapper, ca sĩ, nhạc sĩ và diễn viên người Việt Nam"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "recursive_with_filter",
+      "chunker": "RecursiveChunker",
+      "use_metadata_filter": true,
+      "num_chunks": 100,
+      "avg_score": 0.4374,
+      "queries": [
+        {
+          "id": "q1",
+          "question": "Dế Choắt là quán quân của chương trình nào và vào mùa nào?",
+          "gold_answer": "Dế Choắt là quán quân mùa đầu tiên của chương trình Rap Việt.",
+          "keyword_score": 0.75,
+          "overlap_score": 0.3019,
+          "final_score": 0.6156,
+          "top_results": [
+            {
+              "score": 0.5383,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "Anh nổi tiếng với lần dizz Hot Boy Xăm Trổ và trận Beef với Phúc Rey. Năm 2020, anh tham gia chương trình Rap Việt về đội Wowy và gây tiếng vang tại show truyền hình này, trở thành"
+            },
+            {
+              "score": 0.5368,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "# Dế Choắt - Tiểu sử  Dế Choắt là một rapper của Underground. Đồng thời anh cũng là một thợ xăm Tattoo.   Những bài rap tiêu biểu: Ba Mẹ, Đời Con ; Tiền, Dối Trá Trong Tao, Westsid"
+            },
+            {
+              "score": 0.3636,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "| Thông tin | Chi tiết | | :--- | :--- | | **Tên thật** | Châu Hải Minh | | **Rapname + Nickname** | Dế Choắt | | **Nhóm/Tổ chức/Hãng đĩa - Thương hiệu** | G5R | | **Bạn bè/Đồng mi"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "ICD đạt danh hiệu quán quân ở chương trình nào?",
+          "gold_answer": "ICD là quán quân của chương trình King of Rap.",
+          "keyword_score": 1.0,
+          "overlap_score": 0.2564,
+          "final_score": 0.7769,
+          "top_results": [
+            {
+              "score": 0.7058,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "Năm 2020, anh tham gia chương trình King of Rap và trở thành quán quân mùa một của King of Rap.  ICD chơi skill khá tốt và anh được đánh giá khá cao.   \" Nghe tao rap dizz mày cảm "
+            },
+            {
+              "score": 0.638,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "Tao bật nhạc mày nghe thử hàng xóm lại hỏi tao mới mua chó à ? \"  - ICD (Sủa)"
+            },
+            {
+              "score": 0.5816,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "# ICD - Tiểu sử  ICD là 1 rapper kiêm producer chuyên nghiệp của 7LD. ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Karik tham gia Rap Việt với vai trò gì?",
+          "gold_answer": "Karik tham gia Rap Việt với vai trò huấn luyện viên.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.125,
+          "final_score": 0.2708,
+          "top_results": [
+            {
+              "score": 0.664,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Gia đình :Trong gia đình Karik có 2 anh em và Karik là con út. Khi đến với nhạc rap Karik bị gia đỉnh phản đối, không được ủng hộ vì anh trai mình là người thành công. Nhưng sau kh"
+            },
+            {
+              "score": 0.6503,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Tham gia nhóm nhảy Freestyle năm 2006 và chính thức nghỉ vào cuối năm 2008 vì bị chấn thương tay phải ,sau vài tháng hồi phục lại nhưng vẫn không được hoàn thiện nên Karik đã nghỉ "
+            },
+            {
+              "score": 0.6231,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "# Karik - Tiểu sử  Karik là một rapper, ca sĩ nổi tiếng Việt Nam, từng hoạt động trong underground và là 1 phần gây ra beef Bắc-Nam 2013. Ức_chế_-_Karik_Lyric_VIDEO Ức chế - Karik "
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Wowy là người sáng lập nhóm rap nào?",
+          "gold_answer": "Wowy là người sáng lập nhóm rap SpaceSpeakers.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.0759,
+          "final_score": 0.2561,
+          "top_results": [
+            {
+              "score": 0.6164,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "preview": "# Wowy - Tiểu sử  Wowy tên thật là Nguyễn Ngọc Minh Huy (sinh ngày 27 tháng 9 năm 1988) là một rapper người Việt Nam. Wowy là một rapper \"đường phố\" được khá nhiều bạn trẻ undergro"
+            },
+            {
+              "score": 0.5709,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "preview": "Năm 2018, anh kết hợp cùng SMO phát hành album mới mang tên \"khu sao sống\". Wowy là huấn luyện viên mùa 1 và 2 của Game show Rap Việt. 2 thí sinh team Wowy là Dế Choắt và Blacka lầ"
+            },
+            {
+              "score": 0.5221,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "preview": "Bên cạnh ca hát, anh còn sáng tác, những sáng tác của anh mang âm hưởng phật pháp của Wowy đã thể hiện lên một mảng tâm hồn sâu lắng trong anh và khiến mọi người có cái nhìn tươi m"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Suboi thường được mệnh danh là gì và dấu ấn quốc tế nổi bật của cô là gì?",
+          "gold_answer": "Suboi thường được mệnh danh là Nữ hoàng hip hop Việt Nam và cô từng trình diễn trước Barack Obama trong chuyến thăm Việt Nam.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.1143,
+          "final_score": 0.2676,
+          "top_results": [
+            {
+              "score": 0.6165,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "\"Khi tôi bắt đầu sự nghiệp của mình, không ai thực sự biết 'rap' là gì. Vì thế tôi không biết người Việt Nam sẽ phản ứng như thế nào về nó. Nếu bạn đến Mỹ,họ có rất nhiều nhạc rap "
+            },
+            {
+              "score": 0.5769,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Cuối năm 2012, Suboi tuyên bố ra mắt album phòng thu thứ hai của mình mang tên Run. Nhưng bị trì hoãn do trục trặc ở khâu thiết kế và in ấn dù phần nội dung đã được hoàn thành từ l"
+            },
+            {
+              "score": 0.5741,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Thời thơ ấu và con đường đến với âm nhạc"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "fixed_baseline",
+      "chunker": "FixedSizeChunker",
+      "use_metadata_filter": false,
+      "num_chunks": 84,
+      "avg_score": 0.372,
+      "queries": [
+        {
+          "id": "q1",
+          "question": "Dế Choắt là quán quân của chương trình nào và vào mùa nào?",
+          "gold_answer": "Dế Choắt là quán quân mùa đầu tiên của chương trình Rap Việt.",
+          "keyword_score": 0.75,
+          "overlap_score": 0.0706,
+          "final_score": 0.5462,
+          "top_results": [
+            {
+              "score": 0.57,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "ủa Việt Nam được giới thiệu với hệ thống CocaCola toàn cầu cùng Music Video “Cứ Là Mình”.  Là gương mặt quảng cáo quen thuộc của những nhãn hàng dành cho giới trẻ năng động : Heine"
+            },
+            {
+              "score": 0.5623,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "iống họ. Tôi không hề có bất cứ ví dụ nào [tại Việt Nam] để lấy cảm hứng cả,\" Suboi chia sẻ về sự khó khăn trong việc khởi nghiệp với dòng nhạc hip hop tại quê hương của mình.Cô sá"
+            },
+            {
+              "score": 0.558,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": " nghệ danh là Dế Choắt và bắt đầu được cồng đồng Underground biết đến.  Anh nổi tiếng với lần dizz Hot Boy Xăm Trổ và trận Beef với Phúc Rey. Năm 2020, anh tham gia chương trình Ra"
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "ICD đạt danh hiệu quán quân ở chương trình nào?",
+          "gold_answer": "ICD là quán quân của chương trình King of Rap.",
+          "keyword_score": 1.0,
+          "overlap_score": 0.2198,
+          "final_score": 0.7659,
+          "top_results": [
+            {
+              "score": 0.6665,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "preview": "ply hay diss ICD gồm: Sol'Bass, Dabee, Hale, MC ILL, D Joker,..  Năm 2020, anh tham gia chương trình King of Rap và trở thành quán quân mùa một của King of Rap.  ICD chơi skill khá"
+            },
+            {
+              "score": 0.64,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": " nghệ danh là Dế Choắt và bắt đầu được cồng đồng Underground biết đến.  Anh nổi tiếng với lần dizz Hot Boy Xăm Trổ và trận Beef với Phúc Rey. Năm 2020, anh tham gia chương trình Ra"
+            },
+            {
+              "score": 0.6338,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "nhiên, album vẫn tiếp tục bị trì hoãn.  Tháng 4 năm 2013, Suboi cùng rapper người Anh Lady Leshurr đã tổ chức buổi diễn mang tên Suboi - Lady Leshurr Concert.  Tháng 9 năm 2014, Ru"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Karik tham gia Rap Việt với vai trò gì?",
+          "gold_answer": "Karik tham gia Rap Việt với vai trò huấn luyện viên.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.1053,
+          "final_score": 0.2649,
+          "top_results": [
+            {
+              "score": 0.6587,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Karik bị gia đỉnh phản đối, không được ủng hộ vì anh trai mình là người thành công. Nhưng sau khi Karik là 1 trong 2 nghệ sĩ thắng giải MTV Việt Nam năm 2011 cùng ca sĩ Mỹ Tâm, gia"
+            },
+            {
+              "score": 0.6444,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "# Karik - Tiểu sử  Karik là một rapper, ca sĩ nổi tiếng Việt Nam, từng hoạt động trong underground và là 1 phần gây ra beef Bắc-Nam 2013. Ức_chế_-_Karik_Lyric_VIDEO Ức chế - Karik "
+            },
+            {
+              "score": 0.6419,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "ới 14 tuổi và bắt đầu trình diễn rap từ lúc 15 tuổi và sau đó cô nhanh chóng trở thành một trong những rapper nổi tiếng trong giới underground hip hop. Năm 19 tuổi, sau một lần thu"
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Wowy là người sáng lập nhóm rap nào?",
+          "gold_answer": "Wowy là người sáng lập nhóm rap SpaceSpeakers.",
+          "keyword_score": 0.0,
+          "overlap_score": 0.0471,
+          "final_score": 0.0141,
+          "top_results": [
+            {
+              "score": 0.6608,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "ới 14 tuổi và bắt đầu trình diễn rap từ lúc 15 tuổi và sau đó cô nhanh chóng trở thành một trong những rapper nổi tiếng trong giới underground hip hop. Năm 19 tuổi, sau một lần thu"
+            },
+            {
+              "score": 0.6487,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "g trở nên nổi tiếng và được tôn trọng trong giới underground hip hop tại Việt Nam.  2009-2011: Khởi nghiệp và Walk Năm 19 tuổi, Suboi được phát hiện bởi nhạc sĩ Dương Khắc Linh sau"
+            },
+            {
+              "score": 0.6409,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "i cô được mời trình diễn rap cho các bài hát \"My Apology\" và \"Girls' Night\" của danh ca nhạc pop Hồ Ngọc Hà vào năm 2009.  Lúc 20 tuổi, Suboi cho phát hành cuốn album đầu lòng WALK"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Suboi thường được mệnh danh là gì và dấu ấn quốc tế nổi bật của cô là gì?",
+          "gold_answer": "Suboi thường được mệnh danh là Nữ hoàng hip hop Việt Nam và cô từng trình diễn trước Barack Obama trong chuyến thăm Việt Nam.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.1176,
+          "final_score": 0.2686,
+          "top_results": [
+            {
+              "score": 0.6163,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "hạc hip hop từ năm 14 tuổi cũng như bắt đầu trau dồi vốn tiếng Anh của mình bằng việc nghe và rap theo Eminem hay Will Smith. \"Khi tôi bắt đầu sự nghiệp của mình, không ai thực sự "
+            },
+            {
+              "score": 0.6046,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "tháng 5 năm đó.  Thời thơ ấu và con đường đến với âm nhạc Hàng Lâm Trang Anh được sinh ra trong một gia đình trung lưu tại thành phố Hồ Chí Minh, Việt Nam. Cô được những người bạn "
+            },
+            {
+              "score": 0.5853,
+              "artist": "mc_ill",
+              "source": "data\\raw_data\\mc_ill.md",
+              "preview": "ai năm gần đây. Không gượng ép những vẫn đỉnh, không cầu kì mà vẫn “đánh một đòn chết bảy”   MC-iLL là một người khá thông minh trong việc lựa chọn các trận battle. Anh không phải "
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "strategy": "sentence_basic",
+      "chunker": "SentenceChunker",
+      "use_metadata_filter": false,
+      "num_chunks": 71,
+      "avg_score": 0.1985,
+      "queries": [
+        {
+          "id": "q1",
+          "question": "Dế Choắt là quán quân của chương trình nào và vào mùa nào?",
+          "gold_answer": "Dế Choắt là quán quân mùa đầu tiên của chương trình Rap Việt.",
+          "keyword_score": 0.25,
+          "overlap_score": 0.0777,
+          "final_score": 0.1983,
+          "top_results": [
+            {
+              "score": 0.568,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Là gương mặt quảng cáo quen thuộc của những nhãn hàng dành cho giới trẻ năng động : Heineiken,Yomost, VinaGame, Fifa Online. Vào 2018, Karik cùng Orange cho ra bài Người lạ ơi được"
+            },
+            {
+              "score": 0.5613,
+              "artist": "mc_ill",
+              "source": "data\\raw_data\\mc_ill.md",
+              "preview": "Anh nắn nót từng câu chữ, gọt giũa các ý tưởng đến mức tinh luyện và giữ độ thâm sâu xuyên suốt trong một bài. Sự đầu tư kĩ lưỡng của MC-iLL cho punchline đã tạo nên một xu hướng t"
+            },
+            {
+              "score": 0.5473,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "# Dế Choắt - Tiểu sử  Dế Choắt là một rapper của Underground. Đồng thời anh cũng là một thợ xăm Tattoo. Những bài rap tiêu biểu: Ba Mẹ, Đời Con ; Tiền, Dối Trá Trong Tao, Westside "
+            }
+          ]
+        },
+        {
+          "id": "q2",
+          "question": "ICD đạt danh hiệu quán quân ở chương trình nào?",
+          "gold_answer": "ICD là quán quân của chương trình King of Rap.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.0755,
+          "final_score": 0.256,
+          "top_results": [
+            {
+              "score": 0.6935,
+              "artist": "minh_lai",
+              "source": "data\\raw_data\\minh_lai.md",
+              "preview": "Mỗi bài hát của anh đều có một câu chuyện riêng và chứa đựng nhiều thông điệp ý nghĩa. Ngoài rap, anh cũng có nhiều bản ballad nhẹ nhàng, đầy cảm xúc. Anh ta biết cách thể hiện tìn"
+            },
+            {
+              "score": 0.6516,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "preview": "Anh từng được biết đến là một thợ xăm Tattoo tên Châu Hải Minh, sau này anh bắt đầu dấn thân vào Rap sau đó lấy nghệ danh là Dế Choắt và bắt đầu được cồng đồng Underground biết đến"
+            },
+            {
+              "score": 0.6469,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Là gương mặt quảng cáo quen thuộc của những nhãn hàng dành cho giới trẻ năng động : Heineiken,Yomost, VinaGame, Fifa Online. Vào 2018, Karik cùng Orange cho ra bài Người lạ ơi được"
+            }
+          ]
+        },
+        {
+          "id": "q3",
+          "question": "Karik tham gia Rap Việt với vai trò gì?",
+          "gold_answer": "Karik tham gia Rap Việt với vai trò huấn luyện viên.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.125,
+          "final_score": 0.2708,
+          "top_results": [
+            {
+              "score": 0.664,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "Gia đình :Trong gia đình Karik có 2 anh em và Karik là con út. Khi đến với nhạc rap Karik bị gia đỉnh phản đối, không được ủng hộ vì anh trai mình là người thành công. Nhưng sau kh"
+            },
+            {
+              "score": 0.6377,
+              "artist": "rhymastic",
+              "source": "data\\raw_data\\rhymastic.md",
+              "preview": "Sau một thời gian tự tìm hiểu về sáng tác và sản xuất sản phẩm âm nhạc từ năm 2009, Rhymastic làm việc tại phòng thu M4ME với các nghệ sĩ như Justa Tee, Young Uno. Với chất giọng t"
+            },
+            {
+              "score": 0.6275,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "preview": "# Karik - Tiểu sử  Karik là một rapper, ca sĩ nổi tiếng Việt Nam, từng hoạt động trong underground và là 1 phần gây ra beef Bắc-Nam 2013. Ức_chế_-_Karik_Lyric_VIDEO Ức chế - Karik "
+            }
+          ]
+        },
+        {
+          "id": "q4",
+          "question": "Wowy là người sáng lập nhóm rap nào?",
+          "gold_answer": "Wowy là người sáng lập nhóm rap SpaceSpeakers.",
+          "keyword_score": 0.0,
+          "overlap_score": 0.0533,
+          "final_score": 0.016,
+          "top_results": [
+            {
+              "score": 0.6484,
+              "artist": "rhymastic",
+              "source": "data\\raw_data\\rhymastic.md",
+              "preview": "Sau một thời gian tự tìm hiểu về sáng tác và sản xuất sản phẩm âm nhạc từ năm 2009, Rhymastic làm việc tại phòng thu M4ME với các nghệ sĩ như Justa Tee, Young Uno. Với chất giọng t"
+            },
+            {
+              "score": 0.6453,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Vì thế tôi không biết người Việt Nam sẽ phản ứng như thế nào về nó. Nếu bạn đến Mỹ,họ có rất nhiều nhạc rap tại đó, nhưng tại đây, văn hóa và ngôn ngữ của chúng tôi không giống họ."
+            },
+            {
+              "score": 0.632,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "2009-2011: Khởi nghiệp và Walk Năm 19 tuổi, Suboi được phát hiện bởi nhạc sĩ Dương Khắc Linh sau buổi thu âm ca khúc \"Rock with it\" cùng Rapsoul và KraziNoyze và được mời ký hợp đồ"
+            }
+          ]
+        },
+        {
+          "id": "q5",
+          "question": "Suboi thường được mệnh danh là gì và dấu ấn quốc tế nổi bật của cô là gì?",
+          "gold_answer": "Suboi thường được mệnh danh là Nữ hoàng hip hop Việt Nam và cô từng trình diễn trước Barack Obama trong chuyến thăm Việt Nam.",
+          "keyword_score": 0.3333,
+          "overlap_score": 0.0606,
+          "final_score": 0.2515,
+          "top_results": [
+            {
+              "score": 0.6227,
+              "artist": "minh_lai",
+              "source": "data\\raw_data\\minh_lai.md",
+              "preview": "Mỗi bài hát của anh đều có một câu chuyện riêng và chứa đựng nhiều thông điệp ý nghĩa. Ngoài rap, anh cũng có nhiều bản ballad nhẹ nhàng, đầy cảm xúc. Anh ta biết cách thể hiện tìn"
+            },
+            {
+              "score": 0.5957,
+              "artist": "b_ray",
+              "source": "data\\raw_data\\b_ray.md",
+              "preview": "Dù đã có nhiều người bảo là không thích hợp và nên tiếp tục rap bằng tiếng anh, nhưng sau 1 khoảng thời gian, anh đã dần được biết đến hơn vào cuối năm 2013. B Ray nói về âm nhạc a"
+            },
+            {
+              "score": 0.593,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "preview": "Thời thơ ấu và con đường đến với âm nhạc Hàng Lâm Trang Anh được sinh ra trong một gia đình trung lưu tại thành phố Hồ Chí Minh, Việt Nam. Cô được những người bạn cấp hai gọi là \"S"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

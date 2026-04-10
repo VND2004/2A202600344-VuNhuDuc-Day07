@@ -1,0 +1,578 @@
+{
+  "benchmark_file": "benchmark\\benchmark.json",
+  "top_k": 3,
+  "methods": [
+    {
+      "chunker": "sentence",
+      "top_k": 3,
+      "embedder": "all-MiniLM-L6-v2",
+      "avg_overlap_f1": 0.2226,
+      "results": [
+        {
+          "id": 1,
+          "question": "Những rapper nào đã từng là kẻ thù của ICD?",
+          "predicted_answer": "# ICD - Tiểu sử ICD là 1 rapper kiêm producer chuyên nghiệp của 7LD. ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper. Tuy từng gây beef khá nhiều nhưng bấy giờ khá nhiều rapper không reply ICD vì cho rằng anh chỉ đùa hoặc danh tiếng ICD chưa đủ để tới tai họ.",
+          "benchmark_answer": "Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Choi, Rick, Dabee, Hale, D Joker. Ngoài ra, danh sách còn bao gồm những cái tên từng có mâu thuẫn nhưng hiện đã thay đổi trạng thái (như gạch chéo trong bảng) là Tage, MC ILL, RVP và Infamous.",
+          "overlap_f1": 0.1982,
+          "top_3_chunks": [
+            {
+              "score": 0.7518,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "# ICD - Tiểu sử\n\nICD là 1 rapper kiêm producer chuyên nghiệp của 7LD. ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper. Tuy từng gây beef khá nhiều nhưng bấy giờ khá nhiều rapper không reply ICD vì cho rằng anh chỉ đùa hoặc danh tiếng ICD chưa đủ để tới tai họ."
+            },
+            {
+              "score": 0.7203,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "Bản thân Karik từng là 1 người khá ít nói và sống nội tâm nên vào những ngàyđầu đến với Rap, các tác phẩm thường mang hơi hướng tâm trạng hay nói về cuộc sống là nhiều. Dần dần anh cởi mở hơn, tự tin hơn khi được nhiều người biết đến, đón nhận và yêu thích. Cho đến giờ phút này có thể nói Karik là 1 trong những Rapper đầu tiên thành công cũng như đã thay đổi thành kiến về nhạc Rap tại Việt Nam."
+            },
+            {
+              "score": 0.7106,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "Một số ít rapper khi ấy đã reply hay diss ICD gồm: Sol'Bass, Dabee, Hale, MC ILL, D Joker,.. Năm 2020, anh tham gia chương trình King of Rap và trở thành quán quân mùa một của King of Rap. ICD chơi skill khá tốt và anh được đánh giá khá cao."
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt.",
+          "predicted_answer": "Mỗi bài hát của anh đều có một câu chuyện riêng và chứa đựng nhiều thông điệp ý nghĩa. Ngoài rap, anh cũng có nhiều bản ballad nhẹ nhàng, đầy cảm xúc. Anh ta biết cách thể hiện tình cảm sâu sắc thông qua từng giai điệu, từng lời ca.",
+          "benchmark_answer": "Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bởi phong cách rap gai góc, đậm chất đời qua các bản hit như \"Đời Con\" hay \"Nói Mày Nghe\". Từ một \"chiến binh\" dày dạn kinh nghiệm trong giới Underground với những trận beef nảy lửa, anh đã đạt đến đỉnh cao sự nghiệp khi trở thành Quán quân mùa đầu tiên của chương trình Rap Việt dưới sự dẫn dắt của HLV Wowy.",
+          "overlap_f1": 0.1221,
+          "top_3_chunks": [
+            {
+              "score": 0.6384,
+              "artist": "minh_lai",
+              "source": "data\\raw_data\\minh_lai.md",
+              "content": "Mỗi bài hát của anh đều có một câu chuyện riêng và chứa đựng nhiều thông điệp ý nghĩa. Ngoài rap, anh cũng có nhiều bản ballad nhẹ nhàng, đầy cảm xúc. Anh ta biết cách thể hiện tình cảm sâu sắc thông qua từng giai điệu, từng lời ca."
+            },
+            {
+              "score": 0.6346,
+              "artist": "minh_lai",
+              "source": "data\\raw_data\\minh_lai.md",
+              "content": "# Minh Lai - Tiểu sử\n\nMinh Lai là 1 rapper Việt Nam thuộc team Under The Hood. Những bản rap của Minh Lai thường mang tính chất chân thật, cảm động. Anh ta khai thác nhiều chủ đề đời thường, nói về những nỗi niềm của bản thân và xã hội."
+            },
+            {
+              "score": 0.6172,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "# Suboi - Tiểu sử\n\nHàng Lâm Trang Anh (sinh ngày 14 tháng 1 năm 1990), hay còn được biết đến với nghệ danh Suboi, là một rapper, ca sĩ, nhạc sĩ và diễn viên người Việt Nam. Cô được xem là nữ rapper đầu tiên và cũng là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam.Được sinh ra và lớn lên tại thành phố Hồ Chí Minh, Suboi tiếp cận và yêu thích dòng nhạc hip hop kể từ khi cô chỉ mới 14 tuổi và bắt đầu trình diễn rap từ lúc 15 tuổi và sau đó cô nhanh chóng trở thành một trong những rapper nổi tiếng trong giới underground hip hop. Năm 19 tuổi, sau một lần thu âm cùng rapper Rapsoul và KraziNoyze, Suboi đã gây chú ý cho nhạc sĩ Dương Khắc Linh, người sau này đã mời cô gia nhập hãng đĩa Music Faces."
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai?",
+          "predicted_answer": "# Minh Lai - Tiểu sử Minh Lai là 1 rapper Việt Nam thuộc team Under The Hood. Những bản rap của Minh Lai thường mang tính chất chân thật, cảm động. Anh ta khai thác nhiều chủ đề đời thường, nói về những nỗi niềm của bản thân và xã hội.",
+          "benchmark_answer": "Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam, Suboi không chỉ là nữ rapper tiên phong gặt hái được nhiều thành công trong nước mà còn gây ấn tượng mạnh mẽ với giới truyền thông quốc tế thông qua màn thể hiện trực tiếp trước vị cựu Tổng thống Mỹ.",
+          "overlap_f1": 0.1495,
+          "top_3_chunks": [
+            {
+              "score": 0.7416,
+              "artist": "minh_lai",
+              "source": "data\\raw_data\\minh_lai.md",
+              "content": "# Minh Lai - Tiểu sử\n\nMinh Lai là 1 rapper Việt Nam thuộc team Under The Hood. Những bản rap của Minh Lai thường mang tính chất chân thật, cảm động. Anh ta khai thác nhiều chủ đề đời thường, nói về những nỗi niềm của bản thân và xã hội."
+            },
+            {
+              "score": 0.7344,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "Theo con đường Rapper từ năm 2008 và chính thức biễu diễn chuyên nghiệp từ 2011– 2011, anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV Việt Nam– 2012 – 2013. Anh được khán giả yêu thích qua một loạt các Hits nổi bật: Anh Không Đòi Quà, Ế, Rắc Rối, Người Việt.Nam.. 2014, anh trở thành đại sứ thương hiệu của nhãn hàng Sprite – công ty Cocacola Vietnam và vinh dự là nghệ sĩ đại sứ đầu tiên của Việt Nam được giới thiệu với hệ thống CocaCola toàn cầu cùng Music Video “Cứ Là Mình”."
+            },
+            {
+              "score": 0.733,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Năm 2009, Suboi giành được nhiều chú ý từ khán giả sau hai ca khúc \"Xin hãy thứ tha\" và \"Girls' Night\", hợp tác cùng Hồ Ngọc Hà, đẩy mạnh việc ra mắt album đầu tay của mình, Walk năm 2010, giúp cô trở thành nữ rapper đầu tiên đạt được thành công tại Việt Nam. Năm 2012, cô kết thúc hợp đồng với Music Faces và trở thành ca sĩ độc lập. Album phòng thu thứ hai của cô, Run, sau nhiều lần trì hoãn đã được phát hành vào tháng 5 năm đó."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Những ai là người từng ẩu đả với rapper Blacka?",
+          "predicted_answer": "Blacka là thành viên của G Family và giờ là trưởng nhóm Hazard Clique. Black có tham vọng có 13 đứa con khi đạt mốc 45 tuổi cùng với người bạn gái còn Cam và Pain đều nguyện ước rằng tham vọng đó của Black sẽ thành sự thật. Black Murder từng ẩu đả với Young H và đánh gãy mũi B Ray khi mâu thuẫn giữa cả ba diễn ra vào năm 2016.",
+          "benchmark_answer": "Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong đó Blacka đã đánh gãy mũi của B Ray.",
+          "overlap_f1": 0.5545,
+          "top_3_chunks": [
+            {
+              "score": 0.6871,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "Blacka là thành viên của G Family và giờ là trưởng nhóm Hazard Clique. Black có tham vọng có 13 đứa con khi đạt mốc 45 tuổi cùng với người bạn gái còn Cam và Pain đều nguyện ước rằng tham vọng đó của Black sẽ thành sự thật. Black Murder từng ẩu đả với Young H và đánh gãy mũi B Ray khi mâu thuẫn giữa cả ba diễn ra vào năm 2016."
+            },
+            {
+              "score": 0.6816,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "Theo con đường Rapper từ năm 2008 và chính thức biễu diễn chuyên nghiệp từ 2011– 2011, anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải MTV Việt Nam– 2012 – 2013. Anh được khán giả yêu thích qua một loạt các Hits nổi bật: Anh Không Đòi Quà, Ế, Rắc Rối, Người Việt.Nam.. 2014, anh trở thành đại sứ thương hiệu của nhãn hàng Sprite – công ty Cocacola Vietnam và vinh dự là nghệ sĩ đại sứ đầu tiên của Việt Nam được giới thiệu với hệ thống CocaCola toàn cầu cùng Music Video “Cứ Là Mình”."
+            },
+            {
+              "score": 0.6756,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Năm 2009, Suboi giành được nhiều chú ý từ khán giả sau hai ca khúc \"Xin hãy thứ tha\" và \"Girls' Night\", hợp tác cùng Hồ Ngọc Hà, đẩy mạnh việc ra mắt album đầu tay của mình, Walk năm 2010, giúp cô trở thành nữ rapper đầu tiên đạt được thành công tại Việt Nam. Năm 2012, cô kết thúc hợp đồng với Music Faces và trở thành ca sĩ độc lập. Album phòng thu thứ hai của cô, Run, sau nhiều lần trì hoãn đã được phát hành vào tháng 5 năm đó."
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội.",
+          "predicted_answer": "Mỗi bài hát của anh đều có một câu chuyện riêng và chứa đựng nhiều thông điệp ý nghĩa. Ngoài rap, anh cũng có nhiều bản ballad nhẹ nhàng, đầy cảm xúc. Anh ta biết cách thể hiện tình cảm sâu sắc thông qua từng giai điệu, từng lời ca.",
+          "benchmark_answer": "Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong vai trò rapper, nhạc sĩ và nhà sản xuất âm nhạc thuộc nhóm SpaceSpeakers, nổi tiếng với khả năng sáng tác thượng thừa và các bản hit đình đám như \"Yêu 5\", \"Yêu\", góp phần quan trọng trong việc đưa dòng nhạc Underground đến gần hơn với khán giả đại chúng.",
+          "overlap_f1": 0.0885,
+          "top_3_chunks": [
+            {
+              "score": 0.684,
+              "artist": "minh_lai",
+              "source": "data\\raw_data\\minh_lai.md",
+              "content": "Mỗi bài hát của anh đều có một câu chuyện riêng và chứa đựng nhiều thông điệp ý nghĩa. Ngoài rap, anh cũng có nhiều bản ballad nhẹ nhàng, đầy cảm xúc. Anh ta biết cách thể hiện tình cảm sâu sắc thông qua từng giai điệu, từng lời ca."
+            },
+            {
+              "score": 0.6761,
+              "artist": "wowy",
+              "source": "data\\raw_data\\wowy.md",
+              "content": "# Wowy - Tiểu sử\n\nWowy tên thật là Nguyễn Ngọc Minh Huy (sinh ngày 27 tháng 9 năm 1988) là một rapper người Việt Nam. Wowy là một rapper \"đường phố\" được khá nhiều bạn trẻ underground hâm mộ đã từng bước đi lên từ chính đôi chân và khả năng của mình. Với bản chất ngông, cá tính, bản lĩnh nhưng không kém phần hài hước, lôi cuốn khiến khán giả bùng cháy theo anh trên từng giai điệu."
+            },
+            {
+              "score": 0.6718,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Năm 2009, Suboi giành được nhiều chú ý từ khán giả sau hai ca khúc \"Xin hãy thứ tha\" và \"Girls' Night\", hợp tác cùng Hồ Ngọc Hà, đẩy mạnh việc ra mắt album đầu tay của mình, Walk năm 2010, giúp cô trở thành nữ rapper đầu tiên đạt được thành công tại Việt Nam. Năm 2012, cô kết thúc hợp đồng với Music Faces và trở thành ca sĩ độc lập. Album phòng thu thứ hai của cô, Run, sau nhiều lần trì hoãn đã được phát hành vào tháng 5 năm đó."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chunker": "fixed",
+      "top_k": 3,
+      "embedder": "all-MiniLM-L6-v2",
+      "avg_overlap_f1": 0.1985,
+      "results": [
+        {
+          "id": 1,
+          "question": "Những rapper nào đã từng là kẻ thù của ICD?",
+          "predicted_answer": "# ICD - Tiểu sử ICD là 1 rapper kiêm producer chuyên nghiệp của 7LD. ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối vớ",
+          "benchmark_answer": "Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Choi, Rick, Dabee, Hale, D Joker. Ngoài ra, danh sách còn bao gồm những cái tên từng có mâu thuẫn nhưng hiện đã thay đổi trạng thái (như gạch chéo trong bảng) là Tage, MC ILL, RVP và Infamous.",
+          "overlap_f1": 0.1609,
+          "top_3_chunks": [
+            {
+              "score": 0.7359,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "# ICD - Tiểu sử\n\nICD là 1 rapper kiêm producer chuyên nghiệp của 7LD. ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối vớ"
+            },
+            {
+              "score": 0.7327,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "khá nhiều rapper không reply ICD vì cho rằng anh chỉ đùa hoặc danh tiếng ICD chưa đủ để tới tai họ. Một số ít rapper khi ấy đã reply hay diss ICD gồm"
+            },
+            {
+              "score": 0.7263,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "ờ phút này có thể nói Karik là 1 trong những Rapper đầu tiên thành công cũng như đã thay đổi thành kiến về nhạc Rap tại Việt Nam.\n\nTheo con đường Rapp"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt.",
+          "predicted_answer": "Giới chuyên môn và khán giả bắt đầu chú ý đến anh với tiềm năng chưa được khai phá của anh. \"Ông vua trong hood nhỏ\", \"Bạn của tao\" có lẽ là đỉnh cao",
+          "benchmark_answer": "Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bởi phong cách rap gai góc, đậm chất đời qua các bản hit như \"Đời Con\" hay \"Nói Mày Nghe\". Từ một \"chiến binh\" dày dạn kinh nghiệm trong giới Underground với những trận beef nảy lửa, anh đã đạt đến đỉnh cao sự nghiệp khi trở thành Quán quân mùa đầu tiên của chương trình Rap Việt dưới sự dẫn dắt của HLV Wowy.",
+          "overlap_f1": 0.1833,
+          "top_3_chunks": [
+            {
+              "score": 0.6515,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Giới chuyên môn và khán giả bắt đầu chú ý đến anh với tiềm năng chưa được khai phá của anh. \"Ông vua trong hood nhỏ\", \"Bạn của tao\" có lẽ là đỉnh cao"
+            },
+            {
+              "score": 0.6507,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "h đó anh nhận được hai nón vàng từ Wowy và Rhymastic, cuối cùng anh trở thành á quân rap Việt mùa 2.\n\n\"Nó chỉ sống như thể chưa từng được chết\n\nChỉ cầ"
+            },
+            {
+              "score": 0.645,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "êu thích, năm 2020 cô trở thành huấn luận viên của chương trình Rap Việt.\n\n| Thông tin | Chi tiết |\n|------------|----------|\n| Nhóm/Tổ chức/Hãng đĩa"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai?",
+          "predicted_answer": "Cô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam Năm 2018, Suboi được kênh 88rising phát hành bài hát N-Sao? Hiện tại, c",
+          "benchmark_answer": "Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam, Suboi không chỉ là nữ rapper tiên phong gặt hái được nhiều thành công trong nước mà còn gây ấn tượng mạnh mẽ với giới truyền thông quốc tế thông qua màn thể hiện trực tiếp trước vị cựu Tổng thống Mỹ.",
+          "overlap_f1": 0.3333,
+          "top_3_chunks": [
+            {
+              "score": 0.826,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Cô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam\n\nNăm 2018, Suboi được kênh 88rising phát hành bài hát N-Sao?\n\nHiện tại, c"
+            },
+            {
+              "score": 0.8177,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "Việt Nam.\n\nTheo con đường Rapper từ năm 2008 và chính thức biễu diễn chuyên nghiệp từ 2011– 2011, anh vinh dự là nghệ sĩ nhạc Rap đầu tiên đoạt giải M"
+            },
+            {
+              "score": 0.7804,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "rapper, ca sĩ, nhạc sĩ và diễn viên người Việt Nam. Cô được xem là nữ rapper đầu tiên và cũng là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam.Được sinh ra và"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Những ai là người từng ẩu đả với rapper Blacka?",
+          "predicted_answer": "i đạt mốc 45 tuổi cùng với người bạn gái còn Cam và Pain đều nguyện ước rằng tham vọng đó của Black sẽ thành sự thật. Black Murder từng ẩu đả với You",
+          "benchmark_answer": "Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong đó Blacka đã đánh gãy mũi của B Ray.",
+          "overlap_f1": 0.2535,
+          "top_3_chunks": [
+            {
+              "score": 0.7178,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "i đạt mốc 45 tuổi cùng với người bạn gái còn Cam và Pain đều nguyện ước rằng tham vọng đó của Black sẽ thành sự thật.\n\nBlack Murder từng ẩu đả với You"
+            },
+            {
+              "score": 0.7154,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "àm việc với những người cũ.\n\nSuboi đã đăng tải đoạn trích 55 giây của \"Run\" lên tài khoản Soundcloud của mình năm 2012.\n\nCô từng rap cho Cựu Tổng thốn"
+            },
+            {
+              "score": 0.686,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Army.\n\nAnh được cho là người phát hiện ra tài năng của nhiều rapper như B Ray, Đạt G, Minh Lai, Lăng LD,...và giúp đưa các nghệ sĩ này ra công chúng"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội.",
+          "predicted_answer": "hể chưa từng được chết Chỉ cần nó vui , còn lại... nó xin được cược hết Sinh ra trong sa hoa ..tiền , bạc , gấm , nhung Nhưng thiếu tình thương từ",
+          "benchmark_answer": "Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong vai trò rapper, nhạc sĩ và nhà sản xuất âm nhạc thuộc nhóm SpaceSpeakers, nổi tiếng với khả năng sáng tác thượng thừa và các bản hit đình đám như \"Yêu 5\", \"Yêu\", góp phần quan trọng trong việc đưa dòng nhạc Underground đến gần hơn với khán giả đại chúng.",
+          "overlap_f1": 0.0612,
+          "top_3_chunks": [
+            {
+              "score": 0.6933,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "hể chưa từng được chết\n\nChỉ cần nó vui , còn lại... nó xin được cược hết\n\nSinh ra trong sa hoa ..tiền , bạc , gấm , nhung\n\nNhưng thiếu tình thương từ"
+            },
+            {
+              "score": 0.691,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper. Tuy từng gây beef khá nhiều nhưng bấy giờ khá nhiều rapper không reply"
+            },
+            {
+              "score": 0.6905,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "bài hát đầu tiên của mình vào năm 15 tuổi.Năm 17 tuổi, cô tham gia nhóm nhạc 3N rồi trở thành rapper kiêm nhạc sĩ của nhóm nu-metal Winfield biểu diễ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chunker": "structure",
+      "top_k": 3,
+      "embedder": "all-MiniLM-L6-v2",
+      "avg_overlap_f1": 0.1765,
+      "results": [
+        {
+          "id": 1,
+          "question": "Những rapper nào đã từng là kẻ thù của ICD?",
+          "predicted_answer": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper",
+          "benchmark_answer": "Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Choi, Rick, Dabee, Hale, D Joker. Ngoài ra, danh sách còn bao gồm những cái tên từng có mâu thuẫn nhưng hiện đã thay đổi trạng thái (như gạch chéo trong bảng) là Tage, MC ILL, RVP và Infamous.",
+          "overlap_f1": 0.1687,
+          "top_3_chunks": [
+            {
+              "score": 0.7439,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            },
+            {
+              "score": 0.7269,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Anh được cho là người phát hiện ra tài năng của nhiều rapper như B Ray, Đạt G, Minh Lai, Lăng LD,...và giúp đưa các nghệ sĩ này ra công chúng từ khi"
+            },
+            {
+              "score": 0.7202,
+              "artist": "mc_ill",
+              "source": "data\\raw_data\\mc_ill.md",
+              "content": "\"Từ khi các nhóm underground như GVR, Dunkare, SSR hay Godz phát triển cực thịnh, thế hệ rapper sinh sau thập niên 90 đã nối tiếp và phát triển không"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt.",
+          "predicted_answer": "Section: Suboi - Tiểu sử của chương trình Rap Việt.",
+          "benchmark_answer": "Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bởi phong cách rap gai góc, đậm chất đời qua các bản hit như \"Đời Con\" hay \"Nói Mày Nghe\". Từ một \"chiến binh\" dày dạn kinh nghiệm trong giới Underground với những trận beef nảy lửa, anh đã đạt đến đỉnh cao sự nghiệp khi trở thành Quán quân mùa đầu tiên của chương trình Rap Việt dưới sự dẫn dắt của HLV Wowy.",
+          "overlap_f1": 0.1031,
+          "top_3_chunks": [
+            {
+              "score": 0.694,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Section: Suboi - Tiểu sử\n\ncủa chương trình Rap Việt."
+            },
+            {
+              "score": 0.6638,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "content": "Năm 2020, anh tham gia chương trình Rap Việt về đội Wowy và gây tiếng vang tại show truyền hình này, trở thành quán quân mùa 1 của chương trình Rap"
+            },
+            {
+              "score": 0.6399,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Cô được xem là nữ rapper đầu tiên và cũng là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam.Được sinh ra và lớn lên tại thành phố Hồ Chí Minh, Suboi tiếp cận và"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai?",
+          "predicted_answer": "Section: Suboi - Tiểu sử Cô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam",
+          "benchmark_answer": "Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam, Suboi không chỉ là nữ rapper tiên phong gặt hái được nhiều thành công trong nước mà còn gây ấn tượng mạnh mẽ với giới truyền thông quốc tế thông qua màn thể hiện trực tiếp trước vị cựu Tổng thống Mỹ.",
+          "overlap_f1": 0.3059,
+          "top_3_chunks": [
+            {
+              "score": 0.8108,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Section: Suboi - Tiểu sử\n\nCô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam"
+            },
+            {
+              "score": 0.7739,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Cô được xem là nữ rapper đầu tiên và cũng là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam.Được sinh ra và lớn lên tại thành phố Hồ Chí Minh, Suboi tiếp cận và"
+            },
+            {
+              "score": 0.7547,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Những ai là người từng ẩu đả với rapper Blacka?",
+          "predicted_answer": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper",
+          "benchmark_answer": "Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong đó Blacka đã đánh gãy mũi của B Ray.",
+          "overlap_f1": 0.1311,
+          "top_3_chunks": [
+            {
+              "score": 0.7252,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            },
+            {
+              "score": 0.7159,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Anh được cho là người phát hiện ra tài năng của nhiều rapper như B Ray, Đạt G, Minh Lai, Lăng LD,...và giúp đưa các nghệ sĩ này ra công chúng từ khi"
+            },
+            {
+              "score": 0.6855,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "Black có tham vọng có 13 đứa con khi đạt mốc 45 tuổi cùng với người bạn gái còn Cam và Pain đều nguyện ước rằng tham vọng đó của Black sẽ thành sự"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội.",
+          "predicted_answer": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper",
+          "benchmark_answer": "Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong vai trò rapper, nhạc sĩ và nhà sản xuất âm nhạc thuộc nhóm SpaceSpeakers, nổi tiếng với khả năng sáng tác thượng thừa và các bản hit đình đám như \"Yêu 5\", \"Yêu\", góp phần quan trọng trong việc đưa dòng nhạc Underground đến gần hơn với khán giả đại chúng.",
+          "overlap_f1": 0.1739,
+          "top_3_chunks": [
+            {
+              "score": 0.7102,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            },
+            {
+              "score": 0.7093,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "Cho đến giờ phút này có thể nói Karik là 1 trong những Rapper đầu tiên thành công cũng như đã thay đổi thành kiến về nhạc Rap tại Việt Nam."
+            },
+            {
+              "score": 0.6934,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Anh được cho là người phát hiện ra tài năng của nhiều rapper như B Ray, Đạt G, Minh Lai, Lăng LD,...và giúp đưa các nghệ sĩ này ra công chúng từ khi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chunker": "recursive",
+      "top_k": 3,
+      "embedder": "all-MiniLM-L6-v2",
+      "avg_overlap_f1": 0.1595,
+      "results": [
+        {
+          "id": 1,
+          "question": "Những rapper nào đã từng là kẻ thù của ICD?",
+          "predicted_answer": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper",
+          "benchmark_answer": "Dựa trên thông tin được cung cấp, các rapper và nhóm nhạc từng là đối thủ hoặc có mâu thuẫn (beef) với ICD bao gồm: B2C, Sol'Bass, Hades, Locoboiz, Choi, Rick, Dabee, Hale, D Joker. Ngoài ra, danh sách còn bao gồm những cái tên từng có mâu thuẫn nhưng hiện đã thay đổi trạng thái (như gạch chéo trong bảng) là Tage, MC ILL, RVP và Infamous.",
+          "overlap_f1": 0.1687,
+          "top_3_chunks": [
+            {
+              "score": 0.7439,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            },
+            {
+              "score": 0.7393,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD là 1 rapper kiêm producer chuyên nghiệp của 7LD"
+            },
+            {
+              "score": 0.7269,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Anh được cho là người phát hiện ra tài năng của nhiều rapper như B Ray, Đạt G, Minh Lai, Lăng LD,...và giúp đưa các nghệ sĩ này ra công chúng từ khi"
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "question": "Giới thiệu về Quán quân mùa 1 của chương trình Rap Việt.",
+          "predicted_answer": "của chương trình Rap Việt.",
+          "benchmark_answer": "Dế Choắt (tên thật là Châu Hải Minh, sinh năm 1996) là một rapper xuất thân từ nghệ nhân xăm hình và là thành viên nổi bật của nhóm G5R, ghi dấu ấn bởi phong cách rap gai góc, đậm chất đời qua các bản hit như \"Đời Con\" hay \"Nói Mày Nghe\". Từ một \"chiến binh\" dày dạn kinh nghiệm trong giới Underground với những trận beef nảy lửa, anh đã đạt đến đỉnh cao sự nghiệp khi trở thành Quán quân mùa đầu tiên của chương trình Rap Việt dưới sự dẫn dắt của HLV Wowy.",
+          "overlap_f1": 0.1075,
+          "top_3_chunks": [
+            {
+              "score": 0.7563,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "của chương trình Rap Việt."
+            },
+            {
+              "score": 0.6875,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "được hai nón vàng từ Wowy và Rhymastic, cuối cùng anh trở thành á quân rap Việt mùa 2."
+            },
+            {
+              "score": 0.6638,
+              "artist": "de_choat",
+              "source": "data\\raw_data\\de_choat.md",
+              "content": "Năm 2020, anh tham gia chương trình Rap Việt về đội Wowy và gây tiếng vang tại show truyền hình này, trở thành quán quân mùa 1 của chương trình Rap"
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "question": "Rapper Việt Nam từng rap cho cựu Tổng thống Barrack Obama khi ông đến thăm Việt Nam là ai?",
+          "predicted_answer": "Cô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam Năm 2018, Suboi được kênh 88rising phát hành bài hát N-Sao?",
+          "benchmark_answer": "Rapper Việt Nam từng rap cho cựu Tổng thống Barack Obama khi ông đến thăm Việt Nam là Suboi (tên thật là Hàng Lâm Trang Anh). Được mệnh danh là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam, Suboi không chỉ là nữ rapper tiên phong gặt hái được nhiều thành công trong nước mà còn gây ấn tượng mạnh mẽ với giới truyền thông quốc tế thông qua màn thể hiện trực tiếp trước vị cựu Tổng thống Mỹ.",
+          "overlap_f1": 0.3011,
+          "top_3_chunks": [
+            {
+              "score": 0.8276,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Cô từng rap cho Cựu Tổng thống Barrack Obama nghe khi ông ghé thăm Việt Nam\n\nNăm 2018, Suboi được kênh 88rising phát hành bài hát N-Sao?"
+            },
+            {
+              "score": 0.7739,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "Cô được xem là nữ rapper đầu tiên và cũng là \"Nữ hoàng nhạc hip-hop\" tại Việt Nam.Được sinh ra và lớn lên tại thành phố Hồ Chí Minh, Suboi tiếp cận và"
+            },
+            {
+              "score": 0.7656,
+              "artist": "suboi",
+              "source": "data\\raw_data\\suboi.md",
+              "content": "album đầu tay của mình, Walk năm 2010, giúp cô trở thành nữ rapper đầu tiên đạt được thành công tại Việt Nam."
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "question": "Những ai là người từng ẩu đả với rapper Blacka?",
+          "predicted_answer": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper",
+          "benchmark_answer": "Rapper Blacka (Hồ Thiên Ân) từng xảy ra ẩu đả với hai người là Young H và B Ray. Sự việc này diễn ra vào năm 2016 do mâu thuẫn giữa cả ba người, trong đó Blacka đã đánh gãy mũi của B Ray.",
+          "overlap_f1": 0.1311,
+          "top_3_chunks": [
+            {
+              "score": 0.7252,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            },
+            {
+              "score": 0.7159,
+              "artist": "young_h",
+              "source": "data\\raw_data\\young_h.md",
+              "content": "Anh được cho là người phát hiện ra tài năng của nhiều rapper như B Ray, Đạt G, Minh Lai, Lăng LD,...và giúp đưa các nghệ sĩ này ra công chúng từ khi"
+            },
+            {
+              "score": 0.6911,
+              "artist": "blacka",
+              "source": "data\\raw_data\\blacka.md",
+              "content": "Black Murder từng ẩu đả với Young H và đánh gãy mũi B Ray khi mâu thuẫn giữa cả ba diễn ra vào năm 2016"
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "question": "Giới thiệu về một rapper từng học Đại Học Kiến Trúc Hà Nội.",
+          "predicted_answer": "Nhiều trong số đó đã khẳng định tên tuổi qua những trận chiến khốc liệt như Bray, Rhymastic, Pjpo, BlackMurder,…",
+          "benchmark_answer": "Rapper từng tốt nghiệp trường Đại học Kiến trúc Hà Nội chính là Rhymastic (tên thật là Vũ Đức Thiện, sinh năm 1991). Anh là một nghệ sĩ đa năng trong vai trò rapper, nhạc sĩ và nhà sản xuất âm nhạc thuộc nhóm SpaceSpeakers, nổi tiếng với khả năng sáng tác thượng thừa và các bản hit đình đám như \"Yêu 5\", \"Yêu\", góp phần quan trọng trong việc đưa dòng nhạc Underground đến gần hơn với khán giả đại chúng.",
+          "overlap_f1": 0.0889,
+          "top_3_chunks": [
+            {
+              "score": 0.7152,
+              "artist": "mc_ill",
+              "source": "data\\raw_data\\mc_ill.md",
+              "content": "Nhiều trong số đó đã khẳng định tên tuổi qua những trận chiến khốc liệt như Bray, Rhymastic, Pjpo, BlackMurder,…"
+            },
+            {
+              "score": 0.7102,
+              "artist": "icd",
+              "source": "data\\raw_data\\icd.md",
+              "content": "ICD từng không nổi tiếng trong Việt Rap nói chung nhưng lại rất nổi tiếng đối với Underground vì anh từng diss khá nhiều rapper"
+            },
+            {
+              "score": 0.7093,
+              "artist": "karik",
+              "source": "data\\raw_data\\karik.md",
+              "content": "Cho đến giờ phút này có thể nói Karik là 1 trong những Rapper đầu tiên thành công cũng như đã thay đổi thành kiến về nhạc Rap tại Việt Nam."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

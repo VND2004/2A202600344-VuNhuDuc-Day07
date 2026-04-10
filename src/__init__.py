@@ -1,6 +1,7 @@
 from .agent import KnowledgeBaseAgent
 from .chunking import (
     ChunkingStrategyComparator,
+    DocumentStructureChunker,
     FixedSizeChunker,
     RecursiveChunker,
     SentenceChunker,
@@ -10,6 +11,7 @@ from .embeddings import (
     EMBEDDING_PROVIDER_ENV,
     LOCAL_EMBEDDING_MODEL,
     OPENAI_EMBEDDING_MODEL,
+    create_embedder,
     LocalEmbedder,
     MockEmbedder,
     OpenAIEmbedder,
@@ -23,6 +25,7 @@ __all__ = [
     "FixedSizeChunker",
     "SentenceChunker",
     "RecursiveChunker",
+    "DocumentStructureChunker",
     "ChunkingStrategyComparator",
     "compute_similarity",
     "EmbeddingStore",
@@ -30,6 +33,7 @@ __all__ = [
     "MockEmbedder",
     "LocalEmbedder",
     "OpenAIEmbedder",
+    "create_embedder",
     "_mock_embed",
     "LOCAL_EMBEDDING_MODEL",
     "OPENAI_EMBEDDING_MODEL",

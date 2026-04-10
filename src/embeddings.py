@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import math
+import os
 
 LOCAL_EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 OPENAI_EMBEDDING_MODEL = "text-embedding-3-small"
@@ -56,6 +57,25 @@ class OpenAIEmbedder:
     def __call__(self, text: str) -> list[float]:
         response = self.client.embeddings.create(model=self.model_name, input=text)
         return [float(value) for value in response.data[0].embedding]
+
+
+def create_embedder(provider: str | None = None):
+    """Create an embedding backend from a provider name or environment setting."""
+    selected = (provider or os.getenv(EMBEDDING_PROVIDER_ENV, "local")).strip().lower()
+
+    if selected == "local":
+        try:
+            return LocalEmbedder(model_name=os.getenv("LOCAL_EMBEDDING_MODEL", LOCAL_EMBEDDING_MODEL))
+        except Exception:
+            return _mock_embed
+
+    if selected == "openai":
+        try:
+            return OpenAIEmbedder(model_name=os.getenv("OPENAI_EMBEDDING_MODEL", OPENAI_EMBEDDING_MODEL))
+        except Exception:
+            return _mock_embed
+
+    return _mock_embed
 
 
 _mock_embed = MockEmbedder()

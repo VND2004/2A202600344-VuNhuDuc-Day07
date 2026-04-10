@@ -1,0 +1,68 @@
+[
+    {
+        "id": "q1",
+        "question": "Dế Choắt là quán quân của chương trình nào và vào mùa nào?",
+        "gold_answer": "Dế Choắt là quán quân mùa đầu tiên của chương trình Rap Việt.",
+        "expected_keywords": [
+            "Dế Choắt",
+            "quán quân",
+            "mùa đầu tiên",
+            "Rap Việt"
+        ],
+        "metadata_filter": {
+            "artist": "de_choat"
+        }
+    },
+    {
+        "id": "q2",
+        "question": "ICD đạt danh hiệu quán quân ở chương trình nào?",
+        "gold_answer": "ICD là quán quân của chương trình King of Rap.",
+        "expected_keywords": [
+            "ICD",
+            "quán quân",
+            "King of Rap"
+        ],
+        "metadata_filter": {
+            "artist": "icd"
+        }
+    },
+    {
+        "id": "q3",
+        "question": "Karik tham gia Rap Việt với vai trò gì?",
+        "gold_answer": "Karik tham gia Rap Việt với vai trò huấn luyện viên.",
+        "expected_keywords": [
+            "Karik",
+            "Rap Việt",
+            "huấn luyện viên"
+        ],
+        "metadata_filter": {
+            "artist": "karik"
+        }
+    },
+    {
+        "id": "q4",
+        "question": "Wowy là người sáng lập nhóm rap nào?",
+        "gold_answer": "Wowy là người sáng lập nhóm rap SpaceSpeakers.",
+        "expected_keywords": [
+            "Wowy",
+            "sáng lập",
+            "SpaceSpeakers"
+        ],
+        "metadata_filter": {
+            "artist": "wowy"
+        }
+    },
+    {
+        "id": "q5",
+        "question": "Suboi thường được mệnh danh là gì và dấu ấn quốc tế nổi bật của cô là gì?",
+        "gold_answer": "Suboi thường được mệnh danh là Nữ hoàng hip hop Việt Nam và cô từng trình diễn trước Barack Obama trong chuyến thăm Việt Nam.",
+        "expected_keywords": [
+            "Suboi",
+            "Nữ hoàng hip hop Việt Nam",
+            "Barack Obama"
+        ],
+        "metadata_filter": {
+            "artist": "suboi"
+        }
+    }
+]
