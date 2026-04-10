@@ -53,18 +53,18 @@
 
 | # | Tên tài liệu | Nguồn | Số ký tự (ước tính) | Metadata đã gán |
 |---|--------------|-------|---------------------|-----------------|
-| 1 | suboi.md | data/raw_data | ~3,500 | artist, source, chunk_index, chunker |
-| 2 | karik.md | data/raw_data | ~3,200 | artist, source, chunk_index, chunker |
-| 3 | rhymastic.md | data/raw_data | ~3,000 | artist, source, chunk_index, chunker |
-| 4 | icd.md | data/raw_data | ~4,000 | artist, source, chunk_index, chunker |
-| 5 | mc_ill.md | data/raw_data | ~3,800 | artist, source, chunk_index, chunker |
-| 6 | blacka.md | data/raw_data | ~2,500 | artist, source, chunk_index, chunker |
-| 7 | young_h.md | data/raw_data | ~2,800 | artist, source, chunk_index, chunker |
-| 8 | b_ray.md | data/raw_data | ~2,600 | artist, source, chunk_index, chunker |
-| 9 | de_choat.md | data/raw_data | ~3,100 | artist, source, chunk_index, chunker |
-| 10 | wowy.md | data/raw_data | ~2,900 | artist, source, chunk_index, chunker |
-| 11 | minh_lai.md | data/raw_data | ~2,400 | artist, source, chunk_index, chunker |
-| 12 | phuc_du.md | data/raw_data | ~2,700 | artist, source, chunk_index, chunker |
+| 1 | suboi.md | RapViet Wiki | ~3,500 | artist, source, chunk_index, chunker |
+| 2 | karik.md | RapViet Wiki | ~3,200 | artist, source, chunk_index, chunker |
+| 3 | rhymastic.md | RapViet Wiki | ~3,000 | artist, source, chunk_index, chunker |
+| 4 | icd.md | RapViet Wiki | ~4,000 | artist, source, chunk_index, chunker |
+| 5 | mc_ill.md | RapViet Wiki | ~3,800 | artist, source, chunk_index, chunker |
+| 6 | blacka.md | RapViet Wiki | ~2,500 | artist, source, chunk_index, chunker |
+| 7 | young_h.md | RapViet Wiki | ~2,800 | artist, source, chunk_index, chunker |
+| 8 | b_ray.md | RapViet Wiki | ~2,600 | artist, source, chunk_index, chunker |
+| 9 | de_choat.md | RapViet Wiki | ~3,100 | artist, source, chunk_index, chunker |
+| 10 | wowy.md | RapViet Wiki | ~2,900 | artist, source, chunk_index, chunker |
+| 11 | minh_lai.md | RapViet Wiki | ~2,400 | artist, source, chunk_index, chunker |
+| 12 | phuc_du.md | RapViet Wiki | ~2,700 | artist, source, chunk_index, chunker |
 
 ### Metadata Schema
 
